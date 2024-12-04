@@ -1,0 +1,12 @@
+.AddBut {
+    display: flex !important;
+    align-items: center !important;
+    
+  }
+.show-hide-button {
+    margin-left: 10px !important; /* Add space between Add Staff button and the icon button */
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+
+  }

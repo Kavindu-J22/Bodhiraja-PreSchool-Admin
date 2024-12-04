@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  background: #c5c4c4 !important;
+}
+header{
+  width: 100% !important;
+  height: 70px !important;
+  background:#2e592e !important;
+  position: fixed;
+  top: 0px !important;
+  left: 0px !important;
+  z-index: 1000 !important;
+}
+header .row{
+  margin: 0px !important;
+
+}
+header .logo1 img{
+  width: 70px !important;
+
+}
+header .logo1{
+  text-decoration: none !important;
+}
+header .logo1 span{
+  color: #000 !important ;
+  font-weight: bolder !important;
+  font-size: 30px!important;
+  margin-right: 15px !important;
+  /*color: #f9f9f9 !important;*/
+  
+}
+header button.rounded-circle{
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  background: #e1e5ee !important;
+  color: #000 !important;
+   
+}
+header button.rounded-circle svg{
+  color: #292929 !important;
+  font-size: 18px !important;
+  transition: all 0.2s ease-in-out !important;
+
+}
+header button.rounded-circle svg:hover{
+  color: #0858f7 !important;
+  
+} 
+.searchBox{
+  width: 400px !important;
+  height: 50px !important;
+  background: #e1e5ee !important;
+  border-radius: 6px !important;
+  padding: 3px 15px !important;
+  
+}
+.searchBox input{
+  background:transparent !important;
+  border: 0px !important;
+  outline: none !important;
+  padding-left: 5px !important;
+  font-size: 14px !important;
+  color: #292929 !important ;
+}
+.searchBox input::-webkit-input-placeholder{
+  color: rgba(0,0,0,0.6) !important;
+
+}
+.searchBox svg{
+  font-size: 18px !important;
+  color: #292929 !important;
+}
+.part3 {
+  position: relative !important; /* Ensure it's positioned relative to its normal position */
+  left: 50px !important; /* Move it to the right by 20px; adjust as needed */
+}
+
+
+.myAcc{
+  text-align: left !important;
+  color: #000 !important;
+  text-transform: capitalize !important;
+}
+.myAcc .userImg{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  width: 40px !important;
+  height: 40px !important;
+  border: 1px solid #0858f7 !important;
+  padding: 2px !important;
+  border-radius: 100% !important;
+
+}
+.myAcc .userImg .rounded-circle{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  height: 100% !important;
+  cursor: pointer !important;
+  position: relative !important;
+}
+.myAcc .userImg .rounded-circle img{
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.myAcc .userInfo{
+  padding-left: 10px !important;
+  /*color: #f9f9f9 !important;*/
+ 
+}
+.myAcc .userInfo h4{
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  color: #292929 !important;
+  
+}
+.myAcc .userInfo p{
+  margin-top: 0px !important;
+  font-size: 12px !important;
+  color: #000 !important;
+  opacity:0.7 !important;
+}
+.main .sidebarWrapper{
+  width: 30% !important;
+  flex: 0 0 30% !important;
+  transition: all 0.3s ease-in-out !important;
+
+}
+.main .sidebarWrapper .sidebar{
+  width: 20% !important;
+  height: 100vh !important;
+  position: fixed !important;
+  top: 70px !important;
+  left: 0px !important;
+  background: #fff !important;
+  height: 100vh !important;
+  max-height: calc(100%-70px) !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  padding-bottom: 40px !important;
+
+}
+.main .sidebarWrapper .sidebar::-webkit-scrollbar{
+  display: none !important;
+}
+.main .sidebarWrapper:hover .sidebarWrapper .sidebar::-webkit-scrollbar {
+  display: block !important;
+}
+.main .sidebarWrapper .sidebar ul{
+  margin-bottom: 10px !important;
+  padding: 10px 15px !important;
+
+}
+.main .sidebarWrapper .sidebar ul li{
+  list-style: none !important;
+
+}
+.main .sidebarWrapper .sidebar ul li button{
+  color:#5e5d72 !important;
+  text-align: left !important;
+  justify-content: left !important;
+  border-radius: 0px !important;
+  padding: 12px 10px !important;
+  align-items: center !important;
+  text-transform: capitalize !important;
+  font-weight: 500px !important;
+  font-family: "Open Sans", sans-serif !important;
+
+}
+.main .sidebarWrapper .sidebar ul li button .icon{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 10px !important;
+  align-items: center !important;
+}
+.main .sidebarWrapper .sidebar ul li button *{
+  color: rgba(0,0,0,0.7) !important;
+
+}
+.main .sidebarWrapper .sidebar ul li button .icon svg{
+  color: #000 !important;
+  opacity: 0.7 !important;
+  font-size: 22px !important;
+}
+.main .sidebarWrapper .sidebar ul li button .arrow{
+  margin-left: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 10px !important;
+  align-items: center !important;
+}
+.main .sidebarWrapper .sidebar ul li button:hover{
+  background: #f1f1f1 !important;
+
+}
+.main .content{
+  width: 80% !important;
+  flex: 0 0 80% !important;
+}
+.right-content{
+  padding: 85px 0px !important;
+}
+.dashboardBoxWrapper{
+  gap: 15px !important;
+  width: 100% !important;
+  flex-wrap: wrap !important;
+}
+.dashboardBoxWrapper .dashboardBox{
+  width: 40% !important;
+  height: 250px !important;
+  background: #65A66B !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  padding: 20px !important;
+
+}
+.dashboardBoxWrapper .dashboardBox .icon{
+  top: 10px !important; /* Adjust as needed */
+  right : 10px !important; /* Adjust as needed */
+  font-size: 35px !important; /* Adjust icon size */
+  color: white !important; /* Ensure the icon color matches */
+  opacity: 0.4 !important;
+  color: #000 !important;
+}
+.dashboardBoxWrapper .dashboardBox .col1{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dashboardBoxWrapper .dashboardBox .col1 h4{
+  font-size: 40px !important;
+  font-weight: 700 !important;
+ 
+}
+  
+
+.dashboardBoxWrapper .dashboardBox .col1 span{
+  font-size: 35px !important;
+  font-weight: bold !important;
+  line-height: 45px !important;
+  
+}
+.dashboardBoxWrapper .dashboardBox1{
+  width: 40% !important;
+  height: 250px !important;
+  background:#5B853C !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  padding: 15px !important;
+}
+.dashboardBoxWrapper .dashboardBox1 .icon{
+  top: 10px !important; /* Adjust as needed */
+  right : 10px !important; /* Adjust as needed */
+  font-size: 35px !important; /* Adjust icon size */
+  color: white !important; /* Ensure the icon color matches */
+  opacity: 0.4 !important;
+  color: #000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  border-radius: 5px;
+}
+.dashboardBoxWrapper .dashboardBox1 .col1{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.dashboardBoxWrapper .dashboardBox1 .col1 h4{
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+.dashboardBoxWrapper .dashboardBox1 .col1 span{
+  font-size: 35px !important;
+  font-weight: bold !important;
+  line-height: 45px !important;
+
+}
+.dashboardBoxWrapper .dashboardBox2{
+  width: 81.5% !important;
+  height: 250px !important;
+  background: #073B0C !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  padding: 15px !important;
+}
+.dashboardBoxWrapper .dashboardBox2 .icon{
+  top: 10px !important; /* Adjust as needed */
+  right : 10px !important; /* Adjust as needed */
+  font-size: 35px !important; /* Adjust icon size */
+  color: white !important; /* Ensure the icon color matches */
+  opacity: 0.4 !important;
+  color: #000 !important;
+}
+.dashboardBoxWrapper .dashboardBox2 .col1{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dashboardBoxWrapper .dashboardBox2 .col1 h4{
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+.dashboardBoxWrapper .dashboardBox2 .col1 span{
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 45px !important;
+
+}
+.card{
+  margin: 15px 0px !important;
+  width: 81.5% !important;
+  border-radius: 10px !important;
+}
+.card .hd{
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.admissions{
+  width: 81.5% !important;
+}
+h1,h2,h3,h4,h5,h6{color: #403e57 !important;}
+
+
+.tableCell {
+  padding: 16px !important; /* Increase padding to enlarge cells */
+  border: 1px solid #0e0e0e !important; /* Add a border around each cell */
+  font-size: 16px !important; /* Optional: Adjust font size if needed */
+}
+.thead-dark{
+  background-color: #65A66B !important;
+  
+}
+
+/* Optional: If you want more control over the height */
+.MuiTableCell-root {
+  height: 60px !important; /* Adjust the height as per your needs */
+}
+
+
+/*.table .thead-dark{
+  background-color: #1866ee !important;
+  color: white !important;
+  border-color: rgba(16, 14, 14, 0.1);
+  font-size: 13 px !important ;
+}
+table tbody {
+  background-color: white;
+  height: 40px !important;
+}
+.table tbody td{
+  font-size: 13px !important;
+  color: #403e57 !important;
+  font-weight: 500 !important;
+}
+.table tbody .actions button{
+  min-width: 25px !important;
+  width: 25px !important;
+  height: 25px !important;
+  font-size: 15px;
+  padding: 10px 20px; 
+  margin-right: 20px !important; 
+  background-color: aqua !important; 
+  color: #1866ee; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+*/
+
+
+
+

@@ -1,0 +1,20 @@
+.tableCell {
+    padding: 16px;
+}
+
+.highlighted {
+    background-color: rgb(26, 111, 46);
+    color: white;
+    font-weight: bold;
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: white;
+}
+.checkbox-center {
+    display: flex !important;
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important; /* Center vertically */
+    height: 100% !important; /* Make sure it takes the full height of the cell */
+}

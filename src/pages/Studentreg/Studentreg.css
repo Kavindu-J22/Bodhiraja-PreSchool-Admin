@@ -1,0 +1,74 @@
+.student-registration {
+  background: #E6F6DD !important;
+  padding: 20px !important;
+  max-width: 700px !important;
+  margin: 80px auto 20px !important; /* Increase top margin to 60px */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  position: relative !important; /* Ensures it respects the top margin */
+  border-radius: 15px !important;
+}
+
+
+.student-registration h1 {
+  text-align: center !important;
+  color: #333 !important;
+  margin-bottom: 40px !important;
+  text-decoration-line: underline !important;
+}
+
+.form-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 10px !important;
+}
+
+.form-row label {
+  flex: 1 !important;
+  margin-right: 10px !important;
+}
+
+.form-row label:last-child {
+  margin-right: 0 !important;
+}
+
+label {
+  display: block !important;
+}
+
+input[type="text1"],
+input[type="date"],
+input[type="radio"],
+input[type="email"] {
+  width: 100% !important;
+  padding: 8px !important;
+  margin-top: 4px !important;
+  border: 1px solid #ccc !important;
+  
+
+}
+
+input[type="radio"] {
+  width: auto !important;
+}
+
+.sub {
+  width: 100% !important;
+  padding: 10px !important;
+  background-color: #4CAF50 !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin-top  : 20px !important;
+}
+
+.sub:hover{
+  background-color: #45a049 !important;
+}
+
+/*.form-section {
+  margin-top: 20px !important;
+}*/
+
+.form-section h2 {
+  margin-bottom: 20px !important;
+}

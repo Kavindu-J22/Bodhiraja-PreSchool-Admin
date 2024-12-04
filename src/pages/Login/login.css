@@ -1,0 +1,144 @@
+/* Body and container styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F0F4F1; /* Light background for a clean look */
+}
+
+/* Center the form container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #192e24; /* Dark background color for contrast */
+  padding: 20px;
+}
+
+/* Form styling */
+.login-form, .reset-form {
+  background-color: #FFFFFF;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 480px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for form */
+.login-form:hover, .reset-form:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Form title */
+.login-form h2, .reset-form h2 {
+  font-size: 28px;
+  color: #2C3E50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Input and label styling */
+.form-group {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #7F8C8D;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  transition: 0.3s ease;
+}
+
+/* Input field styling */
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #BDC3C7;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2C3E50;
+  background-color: #ECF0F1;
+  transition: all 0.3s ease;
+}
+
+/* Input field focus effect */
+.form-group input:focus {
+  outline: none;
+  border-color: #1E9E80; /* Greenish border on focus */
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px rgba(30, 158, 128, 0.2);
+}
+
+/* Buttons styling */
+.login-button, .reset-button, .login-toggle {
+  width: 100%;
+  padding: 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1E9E80;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 15px;
+}
+
+/* Hover effect for buttons */
+.login-button:hover, .reset-button:hover, .login-toggle:hover {
+  background-color: #16A085;
+  transform: translateY(-3px);
+}
+
+/* Styling for error message */
+.error-message {
+  color: #E74C3C;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Forgot password and security message styles */
+.forgot-password {
+  color: #1E9E80;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect for forgot password link */
+.forgot-password:hover {
+  color: #16A085;
+}
+
+/* Security message for admin credentials */
+.security-message {
+  font-size: 14px;
+  color: #E67E22;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .login-form, .reset-form {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .login-form h2, .reset-form h2 {
+    font-size: 26px;
+  }
+
+  .login-button, .reset-button, .login-toggle {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,14 @@
+.tableCell {
+    padding: 16px;
+}
+
+.highlighted {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.upload-container select{
+
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+}
+.upload-container .delete-button {
+    background-color: #cf1528 !important; /* Background color */
+    color: white !important;          /* Text color */
+    border: none !important;         /* Remove default border */
+    padding: 10px 20px !important;   /* Padding for the button */
+    cursor: pointer !important;       /* Change cursor to pointer */
+    border-radius: 5px !important;   /* Optional: Rounded corners */
+}
+
+.upload-container .delete-button:hover {
+    background-color: #930917 !important; /* Optional: Darker red on hover */
+}

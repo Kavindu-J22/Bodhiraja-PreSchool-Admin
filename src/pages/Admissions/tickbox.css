@@ -1,0 +1,63 @@
+.container {
+    width: 100% !important;              /* Ensure the container takes full width */
+    max-width: 500px !important;         /* Set the maximum width of the container */
+    margin: 0 auto !important;           /* Center the container if necessary */
+}
+
+.custom-dialog .MuiDialog-paper {
+    height:30%!important;              /* Allow height to adjust based on content */
+    width:430px !important;                /* Set the width of the dialog */
+    display: flex;                        /* Use flexbox layout */
+    flex-direction: column;               /* Stack children vertically */
+    justify-content: flex-start;          /* Align children to the top */
+    background-color: #E6F6DD !important;
+    
+    
+}
+.custom-dialog .MuiDialogTitle-root {
+    display: flex !important;                          /* Use flexbox to center the content */
+    justify-content: center !important;                /* Center horizontally */
+    align-items: center !important;                    /* Center vertically if necessary */
+    font-size: 20px !important;             /* Optional: Change font size */
+    margin-bottom: 16px !important;         /* Space below the title */
+    text-decoration: underline !important;
+    font-weight: bold !important; 
+}
+
+
+.class-name-input {
+    width: 100% !important;               /* Full width of the container */
+    max-width: 400px !important;          /* Fixed maximum width */
+    padding: 8px !important;               /* Padding for better spacing */
+    font-size: 16px !important;           /* Font size */
+    border: 1px solid #ccc !important;   /* Border style */
+    border-radius: 4px !important;       /* Rounded corners */
+    box-sizing: border-box !important;    /* Include padding in width */
+    margin-top: 20px !important;          /* Space above the input */
+    margin-left: 10px !important;         /* Add left margin to shift right */
+}
+
+
+.dialogactions{
+    padding-left: 10px !important;  /* Adjust this value as needed */
+    margin-bottom: 15px !important;     /* Space above the buttons */
+    margin-right: 17px !important;
+}
+
+/*.dialog-actions .MuiButton {
+    margin-left: 10px !important;
+    margin-top: -5px !important;      
+}*/
+.cancel-button {
+    color: white !important;                  /* Text color */
+    background-color: red !important;        /* Red background */
+    margin-right: 10px !important;           /* Space between Cancel and Submit buttons */
+    align-self: center !important;                       /* Center the button vertically */
+}
+
+.submit-button {
+    color: white !important;                  /* Text color */
+    background-color: green !important;       /* Green background */
+    align-self: center !important;
+                            
+}

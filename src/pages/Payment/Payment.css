@@ -1,0 +1,65 @@
+.tableCell {
+    padding: 16px !important;
+}
+
+.highlighted {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: white;
+}
+.button-container {
+    text-align: center !important; /* Aligns the button to the left */
+    margin-top: 10px !important; /* Adds a gap between the table and the button */
+    font-size:large !important;
+   
+}
+.large-button {
+    padding: 10px 24px !important; /* Adjust the padding to make the button larger */
+    border-radius: 8px !important; /* Adjust the border radius if needed */
+    background-color: #65A66B !important; /* Change to your desired background color */
+    
+}
+.large-button:hover {
+    background-color: #45a049 !important; /* Change to your desired hover background color */
+}
+.customSwitch {
+    width: 42px !important; /* Adjust the switch width */
+    height: 22px !important; /* Adjust the switch height */
+    padding: 0 !important; /* Remove extra padding */
+  }
+  
+  .customSwitch .MuiSwitch-switchBase {
+    padding: 2px !important; /* Padding around the thumb */
+  }
+  
+  .customSwitch .MuiSwitch-thumb {
+    width: 18px !important; /* Adjust thumb width */
+    height: 18px !important; /* Adjust thumb height */
+  }
+  
+  .customSwitch .MuiSwitch-track {
+    border-radius: 11px !important; /* Half of the height to make the track rounded */
+    background-color: #bdbdbd !important; /* Track color when unchecked */
+    opacity: 1 !important;
+  }
+  
+  .customSwitch .Mui-checked + .MuiSwitch-track {
+    background-color: #1976d2 !important; /* Track color when checked */
+  }
+  
+  .customSwitch .Mui-checked .MuiSwitch-switchBase {
+    transform: translateX(20px) !important; /* Thumb translation when checked */
+  }
+  .centeredSwitch {
+    display: flex !important;
+    justify-content: center !important; /* Horizontally center the switch */
+    align-items: center !important; /* Vertically center the switch */
+    height: 100% !important; /* Ensure it takes up the full height of the TableCell */
+  }
+    
+

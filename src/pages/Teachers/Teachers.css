@@ -1,0 +1,54 @@
+
+.tableCell {
+    padding: 16px !important;
+}
+
+.highlighted {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: white;
+}
+.button-container {
+    display:flex !important;
+    justify-content:flex-start !important; 
+    margin-top: 10px !important; 
+    font-size: large !important;
+}
+
+.large-button {
+    padding: 10px 24px !important; /* Adjust the padding to make the button larger */
+    border-radius: 8px !important; /* Adjust the border radius if needed */
+    background-color: #65A66B !important; /* Change to your desired background color */
+}
+
+.large-button:hover {
+    background-color: #45a049 !important; /* Change to your desired hover background color */
+}
+
+/* Remove horizontal scroll */
+body, html {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+/* Adjust main container */
+.right-content {
+    /* Prevent horizontal scrolling */
+    margin-right: 0 !important;    /* Adjust margin to remove extra space */
+    padding-right: 0 !important;   /* Adjust padding if needed */
+}
+
+/* Optionally, control vertical scroll as needed */
+/*.admissions {
+    max-height: 400px !important; 
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}*/
+
+
+
